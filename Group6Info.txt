@@ -1,0 +1,9 @@
+Team Name:TriCode
+
+Leader: Johnathon Moore
+Project: Project 1 CSS
+Description: A user interface for an interactive recipe website.
+Team Members: 
+Jessica Haines - recipe data, webpage, powerpoint, this file
+K'Lani McClean - webpages, part of presentation (powerpoint)
+Johnathon Moore - webpages, animation, compiled everyone's code, part of presentation (demo), edited presentation, uploaded to youtube

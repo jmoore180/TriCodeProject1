@@ -1,0 +1,73 @@
+
+header{
+   background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(Backgrounds/food-background.jpg);
+   background-position: center;
+   background-size: cover;
+   height: 100vh;
+   overflow: hidden;
+   background-attachment: fixed;
+
+}
+
+.head{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transform: translate(-50%, -50%);
+
+}
+
+
+h1{
+    margin: 0%;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    font-size: 30pt;
+}
+
+.btn:link, .btn:visited{
+    display: inline-block;
+    font-weight: 300;
+    padding: 10px 30px;
+    border: solid #e74c3c 1px;
+    border-radius: 200px;
+    text-decoration: none;
+    transition: background-color .5s, color .5s, border .5s;
+}
+
+body{
+    margin: 0%;
+}
+
+.btn:hover, .btn:active{
+    background-color: #e74c3c;
+
+}
+
+.btn-main:link, .btn-main:visited{
+    background-color:#e74c3c;
+    color: white;
+    border: 1px solid #e74c3c;
+    margin-left: 25%;
+
+}
+
+.btn-main:hover, .btn-main:active{
+    background-color: #e3301e;
+
+}
+
+.btn-menu:link, .btn-menu:visited {
+color:#e74c3c;
+border: 1px solid #e74c3c;
+}
+
+.btn-menu:hover, .btn-menu:active{
+    background-color: #e74c3c;
+    color: white ;
+
+
+}

@@ -1,0 +1,99 @@
+body{font-family:sans-serif;font-size:18px;margin:75px;background-image: url(Backgrounds/mealback.jpg);background-size: 100%; auto;background-repeat: repeat-y;}
+img{height:500px;margin-bottom:20px;}
+section{margin:100px;padding-left: 15px; padding-bottom: 15px;background-color: white}
+h1{color:green;font-size:60px;}
+h2{color:darkgreen;font-weight:bold;font-size:40px;}
+li{margin:10px;}
+.page{
+    position: fixed;
+    top: 0; right: 0; bottom: 0; left: 0;
+    background-image: url(Backgrounds/chopping.jpg);background-size: 100% 100%;
+    animation-name: coverup;
+    animation-duration: 2s;
+    animation-delay: 2.5s;
+    animation-fill-mode: both;
+}
+@keyframes coverup{
+  from    {height: 100%; width:100%; }
+  to      {height: 0%;}
+}
+
+.text{
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  top: 100px;
+  font-size: 82px;
+  font-family: URW Chancery L, cursive;
+  text-align: center;
+  visibility: visible;
+  animation-name: titlep;
+  animation-duration: 1s;
+  animation-delay: 1.5s;
+  animation-fill-mode: both;
+
+}
+@keyframes titlep{
+  from   {visibility: visible;}
+  to     {visibility: hidden;}
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.block{
+  width: 100%;
+  height:465px;
+  position: absolute;
+  top:0;
+  left:0;
+  background-color: lightgray;
+  z-index: -1;
+
+}
+<style type="text/css">
+  p{}
+  .darkgreen
+  {
+	color: darkgreen;
+	font-weight:bold;
+	font-size:24px;
+  }
+  .darkred
+  {
+	color: darkred;
+	font-weight:bold;
+	font-size:24px;
+  }
+  .blue{
+	color: blue;
+	font-weight:bold;
+	font-size:24px;
+  }
+  .orange{
+    color: #ff6600;
+  	font-weight:bold;
+  	font-size:24px;
+  }
+  .green
+  {
+	color: green;
+	font-size:20px;
+  }
+</style>
